@@ -10,14 +10,14 @@ const Footer = () => {
       <Container>
         <Row className="align-item-center">
           <Col sm={6}>
-            <p className="">Copyright © 2022 - All Rights Reserved</p>
+            <p className="">Copyright © 2024 - All Rights Reserved</p>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="mailto:brendarobles.contacto@gmail.com" target="_blank">
                 <img src={emailIcon} />
               </a>
-              <a href="https://wa.me/12028789183" target="_blank">
+              <a href="https://wa.me/51961490149" target="_blank">
                 <img src={whatsaapIcon} />
               </a>
               <a

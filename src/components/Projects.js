@@ -9,14 +9,15 @@ import ds3 from "../assets/pj1.jpg";
 import ds4 from "../assets/ds4.jpg";
 import ds5 from "../assets/ds5.jpg";
 import ds6 from "../assets/ds6.jpg";
+import ds7 from "../assets/ds7.jpg";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const projects_tab1 = [
     {
-      title: "My Budget",
-      imgUrl: projImg3,
-      webPath:"https://blur-1.github.io/Presupuesto-React/",
+      title: "E-Shop",
+      imgUrl: ds7,
+      webPath:"https://blur-1.github.io/ecommerce-react-24/",
     },
     {
       title: "Responsive Web Design",
@@ -24,10 +25,10 @@ const Projects = () => {
       webPath:"https://blur-1.github.io/TechProducts/",
     },
     {
-      title: "Credit Card Register",
-      imgUrl: projImg1,
-      webPath:"https://blur-1.github.io/creditCard/",
-    },
+      title: "My Budget",
+      imgUrl: projImg3,
+      webPath:"https://blur-1.github.io/Presupuesto-React/",
+    }
   ];
   const projects_tab2 = [
     {
@@ -41,9 +42,9 @@ const Projects = () => {
       webPath: "https://blur-1.github.io/webAngUni/",
     },
     {
-      title: "Crud Market Project",
-      imgUrl: ds3,
-      webPath:"https://blur-1.github.io/webReactCrud/",
+      title: "Credit Card Register",
+      imgUrl: projImg1,
+      webPath:"https://blur-1.github.io/creditCard/",
     },
   ];
   const projects_tab3 = [

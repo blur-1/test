@@ -45,7 +45,7 @@ const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="mailto:brendarobles.contacto@gmail.com" target="_blank"><img src={emailIcon} /></a>
-                <a href="https://wa.me/12028789183" target="_blank"><img src={whatsaapIcon} /></a>
+                <a href="https://wa.me/51961490149" target="_blank"><img src={whatsaapIcon} /></a>
                 <a href="https://www.linkedin.com/in/brenda-robles-5160a2237/" target="_blank"><img src={linkedinIcon} alt="linkedin"/></a>
             </div>
           </span>
