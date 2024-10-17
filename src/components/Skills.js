@@ -15,6 +15,8 @@ import s10 from "../assets/github.svg"
 import s11 from "../assets/spring.svg"
 import s12 from "../assets/postman.svg"
 import s13 from "../assets/nodejs-icon.svg"
+import s14 from "../assets/tailwind-icon.svg"
+
 import colorSpark from "../assets/color-spark.png"
 
 const Skills = () => {
@@ -45,7 +47,7 @@ const Skills = () => {
             <Col>
               <div className="skill-box">
                 <h2>Skills</h2>
-                <p>These are some technologies that I use to work with every day.</p><br></br>
+                <p>These are some technologies I work with every day.</p><br></br>
                 <Carousel responsive={responsive} infinite={true} draggable={true}  className="skill-slider">
                     <div className="item">
                         <img src={s1} alt="Image"></img>
@@ -67,7 +69,18 @@ const Skills = () => {
                         <img src={s8} alt="Image"></img>
                         <h5>Bootstrap</h5>
                     </div>
-                    
+                    <div className="item">
+                        <img src={s14} alt="Image"></img>
+                        <h5>Tailwind Css</h5>
+                    </div>
+                    <div className="item">
+                        <img src={s7} alt="Image"></img>
+                        <h5>Figma</h5>
+                    </div>
+                    <div className="item">
+                        <img src={s9} alt="Image"></img>
+                        <h5>Git</h5>
+                    </div>
                     <div className="item">
                         <img src={s6} alt="Image"></img>
                         <h5>MySql</h5>
@@ -75,14 +88,6 @@ const Skills = () => {
                     <div className="item">
                         <img src={s13} alt="Image"></img>
                         <h5>Node.js</h5>
-                    </div>
-                    <div className="item">
-                        <img src={s9} alt="Image"></img>
-                        <h5>Git</h5>
-                    </div>
-                    <div className="item">
-                        <img src={s10} alt="Image"></img>
-                        <h5>Github</h5>
                     </div>
                     <div className="item">
                         <img src={s12} alt="Image"></img>
@@ -94,12 +99,8 @@ const Skills = () => {
                         <h5>Wordpress</h5>
                     </div>
                     <div className="item">
-                        <img src={s7} alt="Image"></img>
-                        <h5>Figma</h5>
-                    </div>
-                    <div className="item">
-                        <img src={s11} alt="Image"></img>
-                        <h5>Spring Boot</h5>
+                        <img src={s10} alt="Image"></img>
+                        <h5>Github</h5>
                     </div>
                    
                 </Carousel>

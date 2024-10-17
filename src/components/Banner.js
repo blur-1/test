@@ -11,8 +11,7 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className="tag">Welcome to my Portfolio</span>
                     <h1>{`Hi I'm Brenda </>`}<br></br><span className="wrap">Web Developer</span></h1>
-                    <p>Constantly learning new technologies and ways of developing applications
-to grow as a profesional and to keep improving my skills.</p>
+                    <p>Constantly learning new technologies and exploring better ways to develop applications to grow as a professional and provide outstanding user experiences.</p>
                 
                     <a href="mailto:brendarobles.contacto@gmal.com" target="_blank"><span>Let's Talk !</span></a>
                 </Col>
