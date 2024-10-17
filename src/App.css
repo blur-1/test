@@ -502,7 +502,7 @@ nav.navbar .navbar-toggler-icon:after {
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin: 10px 0px;
 }
 
 @media (max-width: 575px) {
