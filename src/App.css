@@ -285,7 +285,7 @@ nav.navbar .navbar-toggler-icon:after {
 }
 
 .banner img {
-  animation: shadowBlink 2s ease-in-out infinite, updown 3s linear infinite;
+  animation: shadowBlink 3s ease-in-out infinite, updown 3s linear infinite;
 }
 @keyframes shadowBlink {
   0% {
