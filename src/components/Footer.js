@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <Row className="align-item-center">
           <Col sm={6}>
-            <p className="">Copyright © 2022-present Brenda Robles All Rights Reserved</p>
+            <p className="">© 2022-present Brenda Robles. All Rights Reserved.</p>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
