@@ -4,7 +4,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap'
 import linkedinIcon from '../assets/linkedin.png'
 import whatsaapIcon from "../assets/whatsaap.png"
 import emailIcon from "../assets/email.svg"
-import logo from '../assets/firma.png'
+import logo from '../assets/firma-br.png'
 
 const NavBar = () => {
     const[activeLink, setActiveLink] = useState('home');
