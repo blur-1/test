@@ -4,10 +4,9 @@ import projImg1 from "../assets/pj2.jpg";
 import projImg2 from "../assets/ds3.jpg";
 import projImg3 from "../assets/pj3.jpg";
 import ds1 from "../assets/ds1.jpg";
-import ds2 from "../assets/ds2.jpg";
+import ds2 from "../assets/ds2.webp";
 import ds4 from "../assets/ds4.jpg";
-import ds5 from "../assets/ds5.jpg";
-import ds6 from "../assets/ds6.jpg";
+import ds6 from "../assets/ds6.webp";
 import ds7 from "../assets/ds7.webp";
 import ds8 from "../assets/ds8.webp";
 import ProjectCard from "./ProjectCard";
@@ -17,52 +16,52 @@ const Projects = () => {
     {
       title: "E-Shop",
       imgUrl: ds7,
-      webPath:"https://blur-1.github.io/ecommerce-react-24/",
+      webPath: "https://blur-1.github.io/ecommerce-react-24/",
+    },
+    {
+      title: "Mis Eventos",
+      imgUrl: ds6,
+      webPath: "https://tickevent.vercel.app/",
     },
     {
       title: "Dashboard Draft",
       imgUrl: ds8,
-      webPath:"https://blur-1.github.io/dash-store/",
-    },
-    {
-      title: "Responsive Web Design",
-      imgUrl: projImg2,
-      webPath:"https://blur-1.github.io/TechProducts/",
+      webPath: "https://blur-1.github.io/dash-store/",
     },
   ];
   const projects_tab2 = [
     {
       title: "Home Decor Web",
       imgUrl: ds4,
-      webPath:"https://blur-1.github.io/tiendaMuebles/",
+      webPath: "https://blur-1.github.io/tiendaMuebles/",
     },
     {
-      title: "Landing Draft",
+      title: "Landing Agency",
       imgUrl: ds2,
-      webPath:"https://blur-1.github.io/landing-page/#",
+      webPath: "https://trailstours.vercel.app/",
     },
     {
-      title: "School Website",
-      imgUrl: ds6,
-      webPath: "https://blur-1.github.io/webAngUni/",
-    }
+      title: "Responsive Web Design",
+      imgUrl: projImg2,
+      webPath: "https://blur-1.github.io/TechProducts/",
+    },
   ];
   const projects_tab3 = [
     {
       title: "Credit Card Register",
       imgUrl: projImg1,
-      webPath:"https://blur-1.github.io/creditCard/",
+      webPath: "https://blur-1.github.io/creditCard/",
     },
     {
       title: "My Budget",
       imgUrl: projImg3,
-      webPath:"https://blur-1.github.io/Presupuesto-React/",
+      webPath: "https://blur-1.github.io/Presupuesto-React/",
     },
     {
       title: "Landing Page",
       imgUrl: ds1,
-      webPath:"https://blur-1.github.io/landing-festival/",
-    }
+      webPath: "https://blur-1.github.io/landing-festival/",
+    },
   ];
   return (
     <>
@@ -71,7 +70,9 @@ const Projects = () => {
           <Row>
             <Col>
               <h2>Projects</h2>
-              <p>I've worked on different personal projects, which I really enjoyed building..
+              <p>
+                I've worked on different personal projects, which I really
+                enjoyed building..
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
